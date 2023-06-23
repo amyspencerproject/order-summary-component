@@ -166,6 +166,7 @@ p {
   justify-content: space-between;
   padding: 1rem;
   flex-flow: wrap;
+  gap: 1rem;
 }
 
 .plan {
@@ -173,11 +174,12 @@ p {
   justify-content: flex-start;
   flex-direction: column;
   font-size: 0.875rem;
-  margin-right: 1rem;
+  flex-grow: 1;
 }
 
 .plan-title {
   font-size: 1rem;
+  text-align: left;
 }
 
 .plan-price {

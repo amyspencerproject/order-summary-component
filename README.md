@@ -43,7 +43,10 @@ Users should be able to:
 
 ### What I learned
 
-- For the background image I first went too complicated. I was trying to use a psuedo class and positioning. Just setting a background image with no-repeat did the trick very simply!
+- For the background image I first went too complicated. I was trying to use a psuedo class and positioning and just making it more complicated than necessary. Just setting a background image with no-repeat did the trick very simply!
+- I chose to use flex for the plan info. At first I used margins to force the music note icon and the plan/price to stay closer together. I started to play with flex shrink and grow to get the same effect. I used a `gap: 1rem` in the plan-details-container and a `flex-grow: 1` for the middle element with the plan title and price.
+- Since this is just a component and not meant to be an entire page I wondered if I should be using an `<h1>` heading or any heading for that matter.
+- Why did I use button vs CTA link?
 
 ### Continued development
 
@@ -51,6 +54,8 @@ Users should be able to:
 
 - [Box-shadowing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - guide for positioning of shadown and depth of blur
 - [Background Images](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - guide for all the variables when setting a background image
+- [Flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
+- [Flex-gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap)
 
 ## Author
 
