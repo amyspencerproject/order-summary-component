@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Github Repo URL: [QR Code Repo](https://github.com/amyspencerproject/qr-code)
-- Live Site URL: [QR Code Page](https://amyspencerproject.github.io/qr-code/)
+- Github Repo URL: [QR Code Repo](https://github.com/amyspencerproject/order-summary-component)
+- Live Site URL: [QR Code Page](https://amyspencerproject.github.io/order-summary-component/)
 
 ## My process
 
