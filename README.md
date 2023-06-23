@@ -11,7 +11,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -25,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot%20Order%20summary%20card.png)
 
 ### Links
 
@@ -45,10 +44,8 @@ Users should be able to:
 
 - For the background image I first went too complicated. I was trying to use a psuedo class and positioning and just making it more complicated than necessary. Just setting a background image with no-repeat did the trick very simply!
 - I chose to use flex for the plan info. At first I used margins to force the music note icon and the plan/price to stay closer together. I started to play with flex shrink and grow to get the same effect. I used a `gap: 1rem` in the plan-details-container and a `flex-grow: 1` for the middle element with the plan title and price.
-- Since this is just a component and not meant to be an entire page I wondered if I should be using an `<h1>` heading or any heading for that matter.
-- Why did I use button vs CTA link?
-
-### Continued development
+- Since this is just a component and not meant to be an entire page I wondered if I should be using an `<h1>` heading or any heading for that matter. Since I am not working for an organization or team I will just keep that in mind for the future.
+- Why did I use an anchor vs a button? I used anchor links for the option to change or cancel the order. Both of these actions are navigational either allowing access to or going to a different part of the current page. I used a button for the proceed to payment option since this is a trigger for an action.
 
 ### Useful resources
 
