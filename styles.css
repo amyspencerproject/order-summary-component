@@ -83,6 +83,7 @@ select {
   --bright-blue: hsl(245, 75%, 52%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --purple-blue: hsl(245, 83%, 68%);
 }
 
 body {
@@ -90,9 +91,9 @@ body {
 }
 
 main {
-  background-image: url(./images/pattern-background-desktop.svg);
+  background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-position: top 50% 50%;
+  background-size: contain;
   background-color: var(--pale-blue);
   display: grid;
   place-content: center;
@@ -164,6 +165,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  flex-flow: wrap;
 }
 
 .plan {
@@ -171,6 +173,7 @@ p {
   justify-content: flex-start;
   flex-direction: column;
   font-size: 0.875rem;
+  margin-right: 1rem;
 }
 
 .plan-title {
@@ -187,6 +190,12 @@ p {
   color: var(--bright-blue);
   text-decoration: none;
   border-bottom: solid 1px var(--bright-blue);
+  margin: 0.5rem;
+}
+
+.change-link:hover {
+  color: var(--purple-blue);
+  border-bottom: none;
 }
 
 .cancel-link {
@@ -198,6 +207,10 @@ p {
   margin: 0.75rem;
 }
 
+.cancel-link:hover {
+  color: var(--dark-blue);
+}
+
 .btn-proceed {
   padding: 1rem;
   margin: 0.5rem 1.5rem 1rem 1.5rem;
@@ -207,4 +220,24 @@ p {
   border: none;
   border-radius: 15px;
   box-shadow: 0px 20px 10px var(--pale-blue);
+}
+
+.btn-proceed:hover {
+  background-color: var(--purple-blue);
+}
+
+@media screen and (min-width: 60rem) {
+  main {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  .summary-text {
+    margin: 0 3rem 0.5rem 3rem;
+    font-size: 1rem;
+  }
+
+  .plan {
+    font-size: 0.875rem;
+    margin-right: 8rem;
+  }
 }

@@ -43,13 +43,14 @@ Users should be able to:
 
 ### What I learned
 
--
+- For the background image I first went too complicated. I was trying to use a psuedo class and positioning. Just setting a background image with no-repeat did the trick very simply!
 
 ### Continued development
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Box-shadowing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - guide for positioning of shadown and depth of blur
+- [Background Images](https://developer.mozilla.org/en-US/docs/Web/CSS/background) - guide for all the variables when setting a background image
 
 ## Author
 
